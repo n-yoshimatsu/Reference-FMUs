@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,Resource.so -o temp/Resource/binaries/x86_64-linux/Resource.so CMakeFiles/Resource.dir/Resource/model.c.o CMakeFiles/Resource.dir/src/fmi3Functions.c.o CMakeFiles/Resource.dir/src/cosimulation.c.o 

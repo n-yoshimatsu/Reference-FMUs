@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,Clocks.so -o temp/Clocks/binaries/x86_64-linux/Clocks.so CMakeFiles/Clocks.dir/Clocks/model.c.o CMakeFiles/Clocks.dir/src/fmi3Functions.c.o CMakeFiles/Clocks.dir/src/cosimulation.c.o 

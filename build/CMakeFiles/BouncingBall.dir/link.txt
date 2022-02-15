@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,BouncingBall.so -o temp/BouncingBall/binaries/x86_64-linux/BouncingBall.so CMakeFiles/BouncingBall.dir/BouncingBall/model.c.o CMakeFiles/BouncingBall.dir/src/fmi3Functions.c.o CMakeFiles/BouncingBall.dir/src/cosimulation.c.o 

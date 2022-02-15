@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,Stair.so -o temp/Stair/binaries/x86_64-linux/Stair.so CMakeFiles/Stair.dir/Stair/model.c.o CMakeFiles/Stair.dir/src/fmi3Functions.c.o CMakeFiles/Stair.dir/src/cosimulation.c.o 

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Stair_cs.dir/src/FMI.c.o CMakeFiles/Stair_cs.dir/src/FMI3.c.o CMakeFiles/Stair_cs.dir/examples/simulate_fmi3_cs.c.o CMakeFiles/Stair_cs.dir/examples/Stair.c.o  -o temp/Stair_cs  -ldl -lm 

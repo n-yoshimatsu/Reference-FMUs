@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/scs_synchronous.dir/src/FMI.c.o CMakeFiles/scs_synchronous.dir/src/FMI3.c.o CMakeFiles/scs_synchronous.dir/examples/Clocks.c.o CMakeFiles/scs_synchronous.dir/examples/scs_synchronous.c.o  -o temp/scs_synchronous  -ldl -lm 

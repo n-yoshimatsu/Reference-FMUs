@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/import_static_library.dir/src/fmi3Functions.c.o CMakeFiles/import_static_library.dir/VanDerPol/model.c.o CMakeFiles/import_static_library.dir/src/cosimulation.c.o CMakeFiles/import_static_library.dir/examples/import_static_library.c.o  -o temp/import_static_library 

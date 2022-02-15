@@ -1,0 +1,112 @@
+fmi3InstantiateCoSimulation(instanceName="instance1", instantiationToken="{8c4e810f-3df3-4a00-8276-176fa3c9f003}", resourcePath="(null)", visible=0, loggingOn=0, eventModeUsed=1, earlyReturnAllowed=0, requiredIntermediateVariables=0x(nil), nRequiredIntermediateVariables=0, instanceEnvironment=0x0x55b61eb84d10, logMessage=0x0x55b61e6f2da3, intermediateUpdate=0x(nil)) -> OK
+fmi3EnterInitializationMode(fmi3EnterInitializationMode(toleranceDefined=0, tolerance=0, startTime=0, stopTimeDefined=1, stopTime=3)) -> OK
+fmi3ExitInitializationMode() -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=0, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={1, 0}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.955855, -0.9809999999999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.1, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.2 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.8136099999999999, -1.962000000000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5732649999999998, -2.943000000000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.3, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.4 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2348199999999996, -3.924000000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=0.46 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.01533500000000046, -4.5126}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 3.15882}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.46, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.5600000000000001 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.271737, 2.177819999999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.5600000000000001, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.66 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4453739999999999, 1.196819999999998}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.66, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.76 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5209109999999999, 0.2158199999999984}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.76, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.86 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4983479999999996, -0.7651800000000016}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.86, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.96 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3776849999999994, -1.746180000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.96, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.06 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1589219999999992, -2.727180000000003}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.06, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=1.12 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.01942380000000101, -3.315780000000003}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 2.321046000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.12, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.22 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1879596000000002, 1.340046000000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.22, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.32 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2778192000000003, 0.3590460000000013}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.32, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.42 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2695788000000004, -0.6219539999999988}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.42, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.52 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1632384000000005, -1.602953999999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.52, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=1.61 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.01634345999999941, -2.485854}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 1.7400978}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.61, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.71 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.12986478, 0.7590977999999994}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.71, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.81 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1616295599999999, -0.2219022000000007}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.81, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.91 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09529433999999985, -1.202902200000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.91, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=1.98 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.00950981400000022, -1.889602200000001}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 1.322721540000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.98, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.08 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08812715400000005, 0.3417215400000007}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.08, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.18 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07815430800000012, -0.6392784599999994}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.18, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=2.26 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.0004559687999998296, -1.42407846}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 0.9968549219999997}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.26, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.36 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05554049219999999, 0.0158549219999998}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.36, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.46 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01298098439999996, -0.9651450780000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.46, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=2.48 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.007302917160000045, -1.161345078}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 0.8129415546000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.48, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.58 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03714915546000002, -0.1680584453999998}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.58, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=2.66 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.003763520171999969, -0.9528584453999998}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 0.6670009117799998}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.66, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.76 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02255509117799998, -0.3139990882200003}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.76, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=2.81 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.002954863233000041, -0.8044990882200003}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 0.5631493617540001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.81, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.91 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01216993617540001, -0.4178506382460001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.91, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=1, lastSuccessfulTime=2.94 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.003308582971979995, -0.712150638246}, nValues=2) -> OK
+fmi3EnterEventMode(stepEvent=0, stateEvent=0, rootsFound={}, nEventIndicators=0, timeEvent=0) -> OK
+fmi3UpdateDiscreteStates(discreteStatesNeedUpdate=0, terminateSimulation=0, nominalsOfContinuousStatesChanged=0, valuesOfContinuousStatesChanged=1, nextEventTimeDefined=0, nextEventTime=0) -> OK
+fmi3EnterStepMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0, 0.4985054467722}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.94, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=3.04 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.005705544677219992, -0.4824945532278002}, nValues=2) -> OK
+fmi3Terminate() -> OK
+fmi3FreeInstance() -> OK

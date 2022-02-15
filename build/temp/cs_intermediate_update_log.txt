@@ -1,0 +1,600 @@
+fmi3InstantiateCoSimulation(instanceName="instance1", instantiationToken="{8c4e810f-3df3-4a00-8276-176fa3c9f003}", resourcePath="(null)", visible=0, loggingOn=0, eventModeUsed=0, earlyReturnAllowed=0, requiredIntermediateVariables=0x(nil), nRequiredIntermediateVariables=0, instanceEnvironment=0x0x5556ab843d10, logMessage=0x0x5556a9ab7da3, intermediateUpdate=0x0x5556a9abdc26) -> OK
+fmi3EnterInitializationMode(fmi3EnterInitializationMode(toleranceDefined=0, tolerance=0, startTime=0, stopTimeDefined=1, stopTime=3)) -> OK
+fmi3ExitInitializationMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={1, -0.09810000000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.01, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.999019, -0.1962}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.02, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.997057, -0.2943}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.03, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.9941139999999999, -0.3924}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.04, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.9901899999999999, -0.4905}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.05, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.9852849999999999, -0.5886}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.06, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.9793989999999999, -0.6867}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.07000000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.972532, -0.7847999999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.08, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.964684, -0.8828999999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.09, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.955855, -0.9809999999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.1, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=0, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.946045, -1.0791}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.11, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.935254, -1.1772}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.12, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.923482, -1.2753}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.13, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.910729, -1.3734}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.14, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.896995, -1.4715}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.15, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.88228, -1.5696}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.16, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.8665839999999999, -1.6677}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.17, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.8499069999999999, -1.7658}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.18, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.8322489999999999, -1.863900000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.19, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.8136099999999999, -1.962000000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.2, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.79399, -2.060100000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.21, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.773389, -2.158200000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.22, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.751807, -2.256300000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.23, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.729244, -2.354400000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.24, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.7057, -2.452500000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.25, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.681175, -2.550600000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.26, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.6556689999999999, -2.648700000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.27, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.6291819999999999, -2.746800000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.28, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.6017139999999999, -2.844900000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.29, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5732649999999998, -2.943000000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.3, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=0.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5438349999999997, -3.041100000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.31, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5134239999999998, -3.139200000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.32, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4820319999999997, -3.237300000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.33, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4496589999999997, -3.335400000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.34, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4163049999999997, -3.433500000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.35, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3819699999999997, -3.531600000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.36, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3466539999999997, -3.629700000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.37, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3103569999999997, -3.727800000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.38, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2730789999999996, -3.825900000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.39, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2348199999999996, -3.924000000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.4, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1955799999999996, -4.022100000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.41, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1553589999999996, -4.120200000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.42, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1141569999999996, -4.218300000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.43, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07197399999999955, -4.316400000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.44, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02880999999999954, -4.4145}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.45, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.01533500000000046, -4.5126}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.46, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0315882, 3.06072}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.47, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0621954, 2.96262}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.48, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0918216, 2.86452}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.49, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1204668, 2.76642}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.5, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=0.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=0.5 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.148131, 2.66832}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.51, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1748142, 2.57022}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.52, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2005164, 2.472119999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.53, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2252376, 2.374019999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.54, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2489778, 2.275919999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.55, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.271737, 2.177819999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.5600000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2935151999999999, 2.079719999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.5700000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3143123999999999, 1.981619999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.58, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3341285999999999, 1.883519999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.59, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3529637999999999, 1.785419999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.6, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3708179999999999, 1.687319999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.61, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3876911999999999, 1.589219999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.62, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4035833999999999, 1.491119999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.63, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4184945999999999, 1.393019999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.64, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4324247999999999, 1.294919999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.65, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4453739999999999, 1.196819999999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.66, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4573421999999999, 1.098719999999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.67, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4683293999999998, 1.000619999999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.68, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4783355999999998, 0.9025199999999983}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.6900000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4873607999999998, 0.8044199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.7000000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=0.6, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.7000000000000001 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4954049999999998, 0.7063199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.71, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5024681999999998, 0.6082199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.72, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5085503999999998, 0.5101199999999985}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.73, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5136515999999999, 0.4120199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.74, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5177717999999999, 0.3139199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.75, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5209109999999999, 0.2158199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.76, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5230691999999999, 0.1177199999999984}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.77, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5242463999999999, 0.01961999999999839}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.78, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5244425999999999, -0.07848000000000162}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.79, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5236577999999998, -0.1765800000000016}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.8, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5218919999999998, -0.2746800000000016}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.8100000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5191451999999998, -0.3727800000000017}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.8200000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5154173999999997, -0.4708800000000017}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.8300000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5107085999999996, -0.5689800000000017}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.84, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5050187999999997, -0.6670800000000017}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.85, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4983479999999996, -0.7651800000000016}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.86, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4906961999999996, -0.8632800000000016}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.87, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4820633999999996, -0.9613800000000016}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.88, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4724495999999996, -1.059480000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.89, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4618547999999996, -1.157580000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.9, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=0.8, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.9 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4502789999999995, -1.255680000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.91, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4377221999999995, -1.353780000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.92, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4241843999999995, -1.451880000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.93, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4096655999999995, -1.549980000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.9400000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3941657999999995, -1.648080000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.9500000000000001, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3776849999999994, -1.746180000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.96, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3602231999999994, -1.844280000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.97, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3417803999999994, -1.942380000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.98, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3223565999999993, -2.040480000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=0.99, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3019517999999993, -2.138580000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2805659999999993, -2.236680000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.01, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2581991999999993, -2.334780000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.02, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2348513999999993, -2.432880000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.03, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2105225999999992, -2.530980000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.04, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1852127999999992, -2.629080000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.05, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1589219999999992, -2.727180000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.06, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1316501999999991, -2.825280000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.07, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1033973999999991, -2.923380000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.08, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07416359999999908, -3.021480000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.09, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04394879999999905, -3.119580000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.1, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=1, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01275299999999902, -3.217680000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.11, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.01942380000000101, -3.315780000000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.12, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02321046000000002, 2.222946000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.13, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04543992000000004, 2.124846000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.14, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.06668838000000006, 2.026746000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.15, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08695584000000008, 1.928646000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.16, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1062423000000001, 1.830546000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.17, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1245477600000001, 1.732446000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.18, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1418722200000001, 1.634346000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.19, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1582156800000001, 1.536246000000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.2, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1735781400000002, 1.438146000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.21, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1879596000000002, 1.340046000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.22, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2013600600000002, 1.241946000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.23, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2137795200000002, 1.143846000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.24, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2252179800000002, 1.045746000000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.25, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2356754400000002, 0.9476460000000012}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.26, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2451519000000002, 0.8495460000000012}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.27, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2536473600000003, 0.7514460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.28, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2611618200000003, 0.6533460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.29, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2676952800000003, 0.5552460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.3, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=1.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=1.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2732477400000003, 0.4571460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.31, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2778192000000003, 0.3590460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.32, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2814096600000003, 0.2609460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.33, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2840191200000003, 0.1628460000000013}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.34, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2856475800000003, 0.06474600000000126}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.35, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2862950400000003, -0.03335399999999875}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.36, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2859615000000004, -0.1314539999999987}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.37, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2846469600000004, -0.2295539999999988}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.38, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2823514200000004, -0.3276539999999988}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.39, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2790748800000004, -0.4257539999999988}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.4, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2748173400000004, -0.5238539999999988}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.41, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2695788000000004, -0.6219539999999988}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.42, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2633592600000004, -0.7200539999999988}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.43, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2561587200000005, -0.8181539999999987}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.44, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2479771800000005, -0.9162539999999987}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.45, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2388146400000005, -1.014353999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.46, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2286711000000005, -1.112453999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.47, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2175465600000005, -1.210553999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.48, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2054410200000005, -1.308653999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.49, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1923544800000005, -1.406753999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.5, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=1.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.5 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1782869400000005, -1.504853999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.51, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1632384000000005, -1.602953999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.52, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1472088600000006, -1.701053999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.53, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1301983200000006, -1.799153999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.54, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1122067800000006, -1.897253999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.55, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09323424000000056, -1.995353999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.56, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07328070000000057, -2.093453999999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.57, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05234616000000058, -2.191554}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.58, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03043062000000058, -2.289654}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.59, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.007534080000000585, -2.387754}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.6, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.01634345999999941, -2.485854}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.61, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.017400978, 1.6419978}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.62, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.033820956, 1.5438978}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.63, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.049259934, 1.4457978}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.64, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.06371791199999999, 1.3476978}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.65, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07719488999999999, 1.249597799999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.66, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08969086799999998, 1.151497799999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.67, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.101205846, 1.053397799999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.68, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.111739824, 0.9552977999999993}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.69, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1212928019999999, 0.8571977999999993}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.7, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=1.6, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=1.7 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.12986478, 0.7590977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.71, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.137455758, 0.6609977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.72, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1440657359999999, 0.5628977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.73, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.149694714, 0.4647977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.74, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1543426919999999, 0.3666977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.75, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1580096699999999, 0.2685977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.76, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1606956479999999, 0.1704977999999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.77, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1624006259999999, 0.07239779999999936}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.78, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1631246039999999, -0.02570220000000065}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.79, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1628675819999999, -0.1238022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.8, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1616295599999999, -0.2219022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.81, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1594105379999999, -0.3200022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.82, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1562105159999999, -0.4181022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.83, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1520294939999999, -0.5162022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.84, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1468674719999999, -0.6143022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.85, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1407244499999999, -0.7124022000000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.86, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1336004279999999, -0.8105022000000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.87, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1254954059999999, -0.9086022000000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.88, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1164093839999999, -1.006702200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.89, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1063423619999999, -1.104802200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.9, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=1.8, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.9 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09529433999999985, -1.202902200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.91, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08326531799999984, -1.301002200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.92, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07025529599999983, -1.399102200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.93, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05626427399999982, -1.497202200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.94, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04129225199999981, -1.595302200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.95, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0253392299999998, -1.693402200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.96, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.008405207999999793, -1.791502200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.97, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.00950981400000022, -1.889602200000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.98, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01322721540000001, 1.224621540000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=1.99, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02547343080000002, 1.126521540000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03673864620000002, 1.028421540000001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.01, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04702286160000003, 0.9303215400000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.02, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05632607700000003, 0.8322215400000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.03, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.06464829240000003, 0.7341215400000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.04, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07198950780000003, 0.6360215400000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.05, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07834972320000004, 0.5379215400000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.06, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08372893860000005, 0.4398215400000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.07, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08812715400000005, 0.3417215400000007}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.08, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09154436940000006, 0.2436215400000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.09, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09398058480000007, 0.1455215400000006}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.1, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09543580020000007, 0.04742154000000061}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.11, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09591001560000008, -0.0506784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.12, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09540323100000009, -0.1487784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.13, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09391544640000009, -0.2468784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.14, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09144666180000009, -0.3449784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.15, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0879968772000001, -0.4430784599999995}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.16, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.08356609260000011, -0.5411784599999995}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.17, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07815430800000012, -0.6392784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.18, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.07176152340000012, -0.7373784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.19, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.06438773880000014, -0.8354784599999994}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.2, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05603295420000014, -0.9335784599999993}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.21, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04669716960000014, -1.031678459999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.22, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03638038500000015, -1.129778459999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.23, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02508260040000016, -1.227878459999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.24, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01280381580000017, -1.32597846}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.25, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.0004559687999998296, -1.42407846}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.26, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.009968549219999998, 0.8987549219999997}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.27, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01895609844, 0.8006549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.28, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02696264765999999, 0.7025549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.29, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03398819687999999, 0.6044549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.3, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=2.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04003274609999999, 0.5063549219999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.31, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04509629531999999, 0.4082549219999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.32, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04917884453999999, 0.3101549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.33, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05228039375999999, 0.2120549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.34, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05440094297999998, 0.1139549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.35, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05554049219999999, 0.0158549219999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.36, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05569904141999998, -0.08224507800000021}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.37, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05487659063999998, -0.1803450780000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.38, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05307313985999998, -0.2784450780000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.39, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05028868907999998, -0.3765450780000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.4, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04652323829999997, -0.4746450780000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.41, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04177678751999997, -0.5727450780000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.42, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03604933673999997, -0.6708450780000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.43, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02934088595999996, -0.7689450780000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.44, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02165143517999996, -0.8670450780000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.45, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01298098439999996, -0.9651450780000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.46, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.003329533619999957, -1.063245078}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.47, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.007302917160000045, -1.161345078}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.48, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.008129415546000001, 0.7148415546000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.49, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.015277831092, 0.6167415546000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.5, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=2.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.5 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02144524663800001, 0.5186415546000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.51, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02663166218400001, 0.4205415546000003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.52, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03083707773000001, 0.3224415546000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.53, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03406149327600001, 0.2243415546000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.54, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03630490882200001, 0.1262415546000002}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.55, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03756732436800002, 0.02814155460000019}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.56, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03784873991400002, -0.06995844539999982}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.57, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03714915546000002, -0.1680584453999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.58, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03546857100600002, -0.2661584453999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.59, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03280698655200003, -0.3642584453999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.6, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02916440209800003, -0.4623584453999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.61, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02454081764400003, -0.5604584453999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.62, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01893623319000003, -0.6585584453999999}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.63, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01235064873600003, -0.7566584453999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.64, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.004784064282000029, -0.8547584453999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.65, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.003763520171999969, -0.9528584453999998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.66, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.006670009117799997, 0.5689009117799998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.67, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0123590182356, 0.4708009117799998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.68, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.0170670273534, 0.3727009117799998}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.69, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02079403647119999, 0.2746009117799997}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.7, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=2.6, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.7 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02354004558899999, 0.1765009117799997}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.71, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02530505470679999, 0.07840091177999971}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.72, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02608906382459998, -0.0196990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.73, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02589207294239998, -0.1177990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.74, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02471408206019998, -0.2158990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.75, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02255509117799998, -0.3139990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.76, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01941510029579997, -0.4120990882200004}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.77, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01529410941359997, -0.5101990882200004}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.78, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01019211853139997, -0.6082990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.79, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.004109127649199962, -0.7063990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.8, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={-0.002954863233000041, -0.8044990882200003}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.81, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.005631493617540001, 0.4650493617540001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.82, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01028198723508, 0.3669493617540001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.83, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01395148085262, 0.268849361754}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.84, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01663997447016001, 0.170749361754}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.85, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01834746808770001, 0.07264936175400001}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.86, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01907396170524001, -0.025450638246}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.87, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01881945532278001, -0.123550638246}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.88, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01758394894032001, -0.221650638246}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.89, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01536744255786001, -0.319750638246}, nValues=2) -> OK
+intermediateUpdate(instanceEnvironment=0x0x5556ab843d10, intermediateUpdateTime=2.9, clocksTicked=0, intermediateVariableSetRequested=0, intermediateVariableGetAllowed=1, intermediateStepFinished=1, canReturnEarly=0, earlyReturnRequested=0, earlyReturnTime=0)
+fmi3DoStep(currentCommunicationPoint=2.8, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.9 -> OK
+fmi3Terminate() -> OK
+fmi3FreeInstance() -> OK

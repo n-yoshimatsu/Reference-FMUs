@@ -1,0 +1,66 @@
+fmi3InstantiateCoSimulation(instanceName="instance1", instantiationToken="{8c4e810f-3df3-4a00-8276-176fa3c9f003}", resourcePath="/home/nyoshimatsu/work/fmi/Reference-FMUs/build/temp/BouncingBall/resources", visible=0, loggingOn=0, eventModeUsed=0, earlyReturnAllowed=0, requiredIntermediateVariables=0x(nil), nRequiredIntermediateVariables=0, instanceEnvironment=0x0x55d6c209ad10, logMessage=0x0x55d6c1cafda3, intermediateUpdate=0x(nil)) -> OK
+fmi3EnterInitializationMode(fmi3EnterInitializationMode(toleranceDefined=0, tolerance=0, startTime=0, stopTimeDefined=1, stopTime=3)) -> OK
+fmi3ExitInitializationMode() -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={1, 0}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.955855, -0.9809999999999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.1, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.2 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.8136099999999999, -1.962000000000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5732649999999998, -2.943000000000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.3, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.4 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2348199999999996, -3.924000000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=0.5 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1204668, 2.76642}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.5, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.6 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3529637999999999, 1.785419999999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.6000000000000001, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.7000000000000001 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4873607999999998, 0.8044199999999984}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.7000000000000001, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.8 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.5236577999999998, -0.1765800000000016}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.8, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.9 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.4618547999999996, -1.157580000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=0.9, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.3019517999999993, -2.138580000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.04394879999999905, -3.119580000000003}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.1, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=1.2 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1582156800000001, 1.536246000000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2676952800000003, 0.5552460000000013}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.3, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.4 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.2790748800000004, -0.4257539999999988}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.5 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1923544800000005, -1.406753999999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.5, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.6 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.007534080000000585, -2.387754}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.6, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=1.7 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1212928019999999, 0.8571977999999993}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.7, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.8 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1628675819999999, -0.1238022000000007}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.8, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.9 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.1063423619999999, -1.104802200000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=1.9, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02547343080000002, 1.126521540000001}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.1 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.09398058480000007, 0.1455215400000006}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.1, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.2 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.06438773880000014, -0.8354784599999994}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.2, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03398819687999999, 0.6044549219999998}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.3, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.4 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.05028868907999998, -0.3765450780000003}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.4, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.5 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.015277831092, 0.6167415546000002}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.5, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.6 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.03280698655200003, -0.3642584453999999}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.6, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.7 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.02079403647119999, 0.2746009117799997}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.7, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.8 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.004109127649199962, -0.7063990882200003}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.8, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=2.9 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.01536744255786001, -0.319750638246}, nValues=2) -> OK
+fmi3DoStep(currentCommunicationPoint=2.9, communicationStepSize=0.1, noSetFMUStatePriorToCurrentPoint=1, eventEncountered=1, terminate=0, earlyReturn=0, lastSuccessfulTime=3 -> OK
+fmi3GetFloat64(valueReferences={1, 3}, nValueReferences=2, values={0.015195326806332, -0.09009455322780009}, nValues=2) -> OK
+fmi3Terminate() -> OK
+fmi3FreeInstance() -> OK
