@@ -1,6 +1,6 @@
 ## fmi3.0のEarly Returnモード、Eventモード、Intermediate Updateモードの動作確認
 
-- ビルドは、公式のReference-FMUsの手順に従って実行。
+- ビルドは、公式のReference-FMUsのgithubに記載の手順に従って実行。
 - 更新点は以下
   * コンパイル時のエラーに対応する修正：１箇所
   * 下記のサンプルで仕様内のサンプルに対応するよう、ステップ時間、コミュニケーションステップ時間を修正
